@@ -20,7 +20,7 @@ public class Change {
 		change = change - (dimes*10);
 		int nickel = change/5;
 		change = change- (5*nickel);
-		
+	// in the end the  change can be  renamed to pennis 	
 		System.out.println(quaterReminde+"quater"+dimes+"dimes"+nickel+"nickel"+change+"pennis");
 		
 	}
